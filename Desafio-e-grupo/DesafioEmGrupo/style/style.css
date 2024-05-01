@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.divHeader{
+    height: 140px;
+    border:2px solid black;
+    
+}
+
+nav{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_header>ul>li>a{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 200%;
+    list-style-type: none;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+.main_content{
+    height: 3000px;
+    width: 100%;
+
+    display: flex;
+
+
+ }
+
+body{
+    width: 100%;
+    height: 3000px;
+ }
+
+ .indice{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    height: 100px;
+    margin-top: 15px;
+ }
+
+ .fotoHeader{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+ }
+
+ .Orkut{
+    width: 100px;
+    display: flex;
+    align-items: center;
+
+ }
+
+
+ input{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    margin-top: 20px;
+    
+ }
+ .section10{ 
+    width: 100%;
+    display: flex;
+ }
+ .section20{ 
+    
+    width: 100%;
+    display: flex;
+
+ }
+ .section30{ 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+ }
+
+ 
+ 
+ 
+ 
+ .div31{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+ }
+
+ .div32{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+ }
+
+
+
